@@ -48,6 +48,7 @@ in {
             type = types.path;
             default = "${cfg.package}/opt/ArmCord/resources/app.asar/assets/desktop.png";
           };
+          inviteWebsocket = mkEnableOption "arRPC to enable Rich Presence.";
           disableAutogain = mkEnableOption "Disables autogain.";
           dynamicIcon = mkEnableOption "Shows unread messages on ArmCord's icon instead of it's tray.";
           minimizeToTray = mkEnableOption "Allow minimizing ArmCord to tray.";
