@@ -2,6 +2,10 @@
 
 A home-manager module for ArmCord that allows you to set ArmCord options, Vencord options and your token from within your config.
 
+> [!WARNING]  
+> This repository is not maintained. Instead, try using https://github.com/Vencord/Vesktop, which allows you to simply put your config files in `XDG_CONFIG_HOME`, like [here](https://github.com/n3oney/nixus/blob/974aff5306e1ae698e4fb1ec66b63a05fb692ae6/modules/programs/discord/discord.nix#L43).
+> Note, that you need to patch the Vesktop binary to not complain about the file being read-only. I've made a [very simple fix](https://github.com/n3oney/nixus/blob/66a6441ad01d43775045e502eec57a82a73503af/modules/programs/discord/readonlyFix.patch) for this.
+
 How to use?
 
 1. Add it to your flake inputs
